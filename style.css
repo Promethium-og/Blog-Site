@@ -1,0 +1,119 @@
+/**************************/
+/***** INDEX ME HTML ******/
+/**************************/
+:root {
+    --grey_white: #F2ECF8;
+    --light_purple: #9B8AB4;
+    --meduim_purple: #564A94;
+    --dark_grey: #1F232F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Choose your font family here
+        or you can add it later */
+}
+
+body {
+    background-color: var(--light_purple);
+    /* the bg color would be the same as your 
+        quote section bg color */
+}
+
+
+
+/***  LANDING PAGE ***/
+.landingPage {
+    min-height: 500px;
+    width: 100%;
+    opacity: 0.5;
+    background-image: url("img/bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+header img {
+    width: 50px;
+    position: absolute;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+}
+
+.navLinks li {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navLinks a {
+    color: #1F232F;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+
+/***  NAVIGATION BAR ***/
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    color: var(--meduim_purple);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+
+/***  TITLE ***/
+
+header h1 {
+    color: #564A94;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+
+
+/***  QUOTE SECTION ***/
+
+
+
+/***  CARDS ***/
+.column img {
+    height: 100px
+}
+
+
+/***  LAST SECTION ***/
+
+
+
+/***  FOOTER ***/
+
+
+
+
+
+
+
+/**************************/
+/***** ABOUT ME HTML ******/
+/**************************/
+/* Use CSS from previous CSS to 
+      add and edit here */
